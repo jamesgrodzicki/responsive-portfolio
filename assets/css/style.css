@@ -1,0 +1,246 @@
+*{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.heading{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1{
+    width: 275px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+h3{
+    float: right;
+    padding: 25px;
+}
+
+#contact{
+    padding-right: 0px;
+}
+
+#vert-line{
+    border-left: 1px solid #cccccc;
+    height: 18px;
+    position: absolute;
+    left: 1222px;
+    margin-left: -3px;
+    top: 26px;
+}
+
+#vert-line-2{
+    border-left: 1px solid #cccccc;
+    height: 18px;
+    position: absolute;
+    left: 1350px;
+    margin-left: -3px;
+    top: 26px;
+}
+
+#background{
+    clear: both;
+    width: 100%;
+    height: 780px;
+    background-image: url("../images/floor-tile.png");
+    border-top: 2px solid #cccccc;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    margin-top: 35px;
+}
+
+.container-portfolio{
+    height: 720px;
+    overflow: hidden;
+}
+
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 30px;
+}
+
+h2:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+    padding-top: 30px;
+    border-bottom: 3px solid #cccccc;
+}
+
+.image{
+    float: left;
+    padding: 0px 30px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 35px;
+    padding-right: 30px;
+}
+
+#paragraph-1-container{
+    position: relative;
+}
+
+#paragraph-1{
+    position: absolute;
+    top: -10px;
+    left: 260px;
+}
+
+#paragraph-2{
+    clear: both;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+#paragraph-3{
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+#teal-line{
+    position: fixed;
+    background-color: #4aaaa5;
+    height: 8px;
+    width: 100%;
+}
+
+.footer{
+    position: fixed;
+    background-color: #666666;
+    top: 866px;
+    width: 100%;
+    height: 81px;
+}
+
+h6{
+    position: fixed;
+    top: 929px;
+    left: 920px;
+    color: #ffffff;
+}
+
+.texts{
+    position: relative;
+    padding: 10px 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 150px;
+    text-align: center;
+}
+.project-1{
+    position: relative;
+    padding: 0px 30px;
+}
+
+#text-1{
+    left: 30px;
+    top: -50px;
+}
+
+.project-2{
+    position: relative;
+    padding: 30px;
+    top: -10px;
+}
+
+#text-2{
+    left: 30px;
+    top: -90px;
+}
+
+.project-3{
+    padding: 30px;
+    position: relative;
+    top: -50px;
+}
+
+#text-3{
+    left: 30px;
+    top: -130px;
+}
+
+.project-4{
+    padding: 0px 30px;
+    position: relative;
+    left: 210px;
+    top: -697px;
+}
+
+#text-4{
+    left: 240px;
+    top: -747px;
+}
+
+.project-5{
+    padding: 30px;
+    position: relative;
+    left: 210px;
+    top: -707px;
+}
+
+#text-5{
+    left: 240px;
+    top: -787px;
+}
+
+#name{
+    padding: 0px 0px 10px 30px;
+}
+
+#name-box{
+    padding-left: 30px;
+}
+
+#email{
+    padding: 30px 0px 10px 30px;
+}
+
+#email-box{
+    padding-left: 30px;
+}
+
+#msg{
+    padding: 30px 0px 10px 30px;
+}
+
+#msg-box{
+    padding-left: 30px;
+}
+
+input[type=text]{
+    width: 887px;
+    padding: 5px;
+}
+
+input[type=submit]{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 20px 0px 30px 30px;
+    padding: 10px 20px;
+    border: none;
+}
